@@ -23,18 +23,34 @@
     </nav>
   </header>
   <main class="main-container">
+    <!-- Seccion de formulas basicas -->
     <section id="secFigGeo" class="main__section">
       <h2 class="section__title">FORMULAS BASICAS</h2>
     </section>
+
+    <!-- Seccion de porcentajes y descuentos -->
     <section id="secPorcDesc" class="main__section main__section-active">
       <h2 class="section__title">PORCENTAJES Y DESCUENTOS</h2>
+      <div class="form">
+        <label for="price" class="form__label">Precio:</label>
+        <input id="price" type="number" class="form__input">
+        <label for="discount" class="form__label">Descuento:</label>
+        <input id="discount" type="number" class="form__input">
+        <p id="resultado" class="form__result"></p>  
+        <button id="calcular" class="form__button">Calcular</button>
+      </div>
     </section>
+
+    <!-- Seccion de estadistica basica -->
     <section id="secEstdBas" class="main__section main__section-active">
       <h2 class="section__title">ESTADISTICA BASICA</h2>
     </section>
+
+    <!-- Seccion de analisis salarial -->
     <section id="secAnalisisSal" class="main__section main__section-active">
       <h2 class="section__title">ANALISIS SALARIAL</h2>
     </section>
+
   </main>
   <script src="./main.js"></script>
 </body>
